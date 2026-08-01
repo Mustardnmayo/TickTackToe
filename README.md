@@ -1,7 +1,7 @@
 # TickTackToe
 ticktacktoe in c without the stdlib (or any other stuff i could think to avoid)
 
-# How to compile  
+How to compile  
 run the compiler.py via python  
 compiler.py takes command line arguments,   
 --release : smallest build  
