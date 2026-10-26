@@ -40,5 +40,5 @@ if __name__ == "__main__":
 
     com:str = f"gcc game.c {" ".join([x for x in flags])} {entry} {" ".join([x for x in libs])} -o game.{"s" if asm else "exe"}"
     print(com)
-    exit_code:int = os.system(com);
-    sys.exit(exit_code);
+    exit_code:int = os.system(com)
+    sys.exit(exit_code)
